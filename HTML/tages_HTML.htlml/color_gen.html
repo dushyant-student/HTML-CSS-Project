@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="color_gen.css" >
+</head>
+<body>
+    <div id="main">
+        <div id="display"><h1>nwvsxlg</h1></div>
+        <div id="but">
+            <button onclick="color_ch()" id="btn">change</button>
+        </div>
+    </div>
+
+
+
+</body>
+<script type="text/javascript">
+    document.getElementById("btn").addEventListener("click",color_ch);
+    function color_ch(){
+    var cons=Math.floor((Math.random())*16777215);
+    var con="#"+cons.toString(16);
+    document.getElementById("display").innerText=con;
+    document.body.style.backgroundColor=con;
+    
+
+    };
+</script>
+</html>

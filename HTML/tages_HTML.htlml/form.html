@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form data</title>
+</head>
+<body>
+    <h1>#FORM data</h1>
+    <fieldset height="800px" width="400px">
+    <form>
+
+        name:<input type="text" placeholder="Enter Name here..."/>
+        <br/>
+        <br/>
+        age:<input type="text" placeholder="age?"/>
+        <br/>
+        <br/>
+        Address:
+            <textarea></textarea>
+        <br/>
+        <br/>
+        Gender:<input type="radio" name="gun" value="m" /> Male  <!-- we have vale only in raido not have in all -->
+                <input type="radio" name="gun" value="f" /> Female
+                <input type="radio" name="gun" name="o"/> other
+                <br/>
+                <br/>
+        country:<select>
+                    <optgroup aria-label="ASIA?">
+                    <option value="i">india</option>
+                    <option value="s">shrilanka</option>
+                    </optgroup>
+                    <option value="g">goa</option>
+                    <option value="j">jharkhand</option>
+                    <option value="o">rajisthan </option>
+                </select>  
+                <br/>
+                <br/> 
+                hobies:
+                    <input type="checkbox" name="gun[]"/> cricket
+                    <input type="checkbox" name="gun[]"/> football
+                    <input type="checkbox" name="gun[]"/> painting 
+                    <input type="checkbox" name="gun[]"/> doing lazyness
+                <br/>
+                <br/>
+                Aim:
+                <input type="radio" name="gun"/> saerching
+                <input type="radio" name="gun"/> explore_world
+                <input type="radio"/> timepass(lazyness)
+                <br/>
+                <br/>
+                image:
+                <input type="file" name="f"/>
+                <br/>
+                <br/>
+        <input type="submit"/>
+        <input type="reset"/>
+
+    </form>
+</fieldset>
+</body>
+</html>
