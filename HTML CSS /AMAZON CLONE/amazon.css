@@ -1,0 +1,262 @@
+*{  
+    margin:0px ;
+    padding:0px ;
+    font-style: arial;
+    color: white ;
+    
+}
+#nave{
+    height:65px;
+    border-bottom: 1px solid black ;
+    background-color: black ;
+    display: flex ;
+    flex-direction: row ;
+    
+    
+    
+}
+#icon{
+    height:50px ;
+    width:140px ;
+    display: flex ;
+    justify-content: space-between;
+
+
+}
+#loc-ico{
+    display: flex;
+    justify-content: space-between;
+}
+#addr{
+    color: white ;
+    margin-left: 5px ;
+    margin-left: 10px ;
+
+}
+#search_nav{
+    height: 41px ;
+    width: 870px ;
+    margin-right: 8px ;
+    margin-top:8px ;
+    display: flex ;
+    margin-left: 10px ;
+
+    
+}
+
+#opt_gp select{
+    height:38px;
+    border-top-left-radius: 8px ;
+    border-bottom-left-radius: 8px ;
+    color: black ;
+
+}
+option{
+    color: black;
+}
+input{
+    height: 36px ;
+    width:820px ;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px ;
+    color:black ;
+
+}
+#occ{
+    width:450px ;
+    height:60px ;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center ;
+    
+
+}
+#flag{
+    height:35px ;
+    width:70px ;
+    padding-top: 16px ;
+    padding-left: 8px ;
+
+
+
+}
+#account{
+    height:40px ;
+    width: 130px ;
+    padding-top:10px ;
+
+}
+#ret_ord{
+    width:100px ;
+    height: 40px;
+    text-align: center ;
+    padding-top:10px  ;
+}
+#add_c{
+    width:80px;
+    height: 40px ;
+    text-align: center ;
+    padding-top:10px  ;
+
+}
+#account h4 select{
+    margin-left:4px  ;
+    height: 16px;
+    width: 24px ;
+    
+}
+#nav_2{
+    height: 60px;
+    background-color: rgb(37, 33, 33);
+    border-bottom: 1px solid rgb(52, 49, 49) ;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+#list_itm{
+    height: 50px ;
+    width:1200px;
+    margin-left: 10px ;
+    display: flex ;
+    gap: 30px ;
+    
+
+    
+
+
+}
+#list_2{
+    width: 300px;
+    height: 40px ;
+
+    
+}
+#nav_3{
+    height:40px ;
+    background-color: azure;
+    border-bottom: 1px solid black ;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center ;
+
+    
+
+}
+#nav_3 p{
+    color : black ;
+
+
+}
+#shp_itm{
+    width: 1490px ;
+    height: 700px ;
+    background-color: rgb(233, 208, 212);
+    border-bottom: 2px solid black ;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap:wrap;
+    
+
+    
+}
+#sign{
+    height: 150px ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center;
+    gap: 15px ;
+}
+.box1{
+    background-color: rgb(250, 241, 241);
+    width: 330px ;
+    height:300px;
+    margin-top:10px;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left:8px ;
+    justify-content: space-evenly;
+
+}
+#footer{
+    display: flex;
+    flex-direction: column ;
+
+}
+#back{
+    height: 40px;
+    background-color: rgb(189, 184, 184);
+    color: white;
+    text-align: center ;
+    font-size:30px ;
+    border-bottom: 2px solid black ;
+}
+#content{
+    height: 350px;
+    background-color: rgb(81, 81, 105);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.b1{
+    height: 250px ;
+    width: 200px;
+    color: white ;
+    
+    
+}
+.b1 ul li{
+    padding-top:3px  ;
+}
+#amz_last{
+    height: 140px;
+    background-color: rgb(47, 43, 43);
+    color: white ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.amz{height: 50px ;
+    width: 350px ;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:white;
+    
+    
+}
+
+.flg{
+    height: 50px ;
+    width: 120px ;
+    display:flex;
+    flex-direction: row ;
+    justify-content: center ; 
+    align-items: center ;
+    gap: 10px ;
+    
+    
+    
+}
+#last{
+    
+    height: 220px;
+    background-color: black ;
+    color: white ;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+div:hover{
+    background: transparent;
+    
+}
