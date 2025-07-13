@@ -1,0 +1,74 @@
+body{
+    display : flex;
+    justify-content: center ;
+    position: relative;
+}
+#box{
+    height: 300px;
+    width:300px ;
+    
+    background-color: floralwhite;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    animation: spin 0.11s linear infinite ;
+}
+
+#f1{
+    position: absolute;
+    height: 300px;
+    width: 30px ;
+    color:red;
+    background-color: skyblue;
+    border-radius: 0% 100% 0px 100% ;
+    border: 2px solid red ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#f2{
+    height: 30px;
+    width: 300px ;
+    color:red;
+    background-color: skyblue;
+    border-radius:100% 0% 100% 0% ;
+    border: 2px solid red ;
+    
+}
+#pole{
+    height: 280px;
+    width: 20px ;
+    color:red;
+    background-color: skyblue;
+    border: 2px solid red ;
+    position: absolute;
+    translate: 0px 165px;
+    opacity: 0.6;
+}
+#point{
+    width: 20px ;
+    height: 20px ;
+    border: 1px solid;
+    background-color: black;
+    border-radius: 100% 100% ;
+    
+}
+/* #plate{
+    width: 140px ;
+    height: 140px ;
+    translate: -220px 448px;
+    stroke-width: 50px;
+    border-radius: 30% 30% ;
+    border: 1px solid;
+    background-color: rgb(234, 120, 120);
+    transform: rotateX(50deg);
+
+} */
+@keyframes spin{
+    from { transform : rotate(0deg);}
+    to {
+    transform : rotate(360deg);
+    }
+}
